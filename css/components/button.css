@@ -1,0 +1,20 @@
+.button{
+	background: rgb(248, 211, 38);
+	padding: 15px 20px;
+	border-radius: 15px;
+	color: black;
+	font-weight: bold;
+	font-size: 30px}
+
+a:hover{
+	background: rgb(99, 201, 48, 1.0);}
+
+.border:hover{
+	border: 5px solid black;}
+
+.change:after{
+	content: "PLAY"}
+.change:hover:after{
+	content: "UNLOCK"}
+.change:hover{
+	background: rgb(255, 0, 0, 0.5);}

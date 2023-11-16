@@ -1,0 +1,35 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -40px;
+	margin-bottom: 100px}
+
+
+.card{
+	background: rgb(200, 200, 200, 0.3);
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px;
+	box-shadow: 0px 10px 30px black;
+	width: 500px;
+	border-radius: 15px;
+	color: white;
+	letter-spacing: 2px;}
+.card:hover{
+	background: rgb(200, 200, 200, 0.5);
+	transition: background 0.3s ease;
+}
+
+.card h2{
+	flex-grow: 1;
+	padding-left: 15px;
+	font-size: 24px;}
+
+.card img{
+	width: 150px;
+	border-radius:10px;}	
+
+
